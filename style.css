@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: sans-serif;
+  color: #ffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+header {
+  background-color: #ffff;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 26px;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+nav {
+  text-align: center;
+  padding-top: 15px;
+  background-color: #ffff;
+}
+
+nav a {
+  color: #000;
+  font-family: "Courier New", Courier, monospace;
+  margin: 5px;
+}
+
+nav a:hover {
+  color: #1320db;
+  font-weight: bold;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons ul li{
+    display: inline-block;
+}
+
+.social-icons ul li a.twitter {
+    color: #1DA1F2;
+}
+
+.social-icons ul li a.discord {
+    color: #7289d9;
+}
+
+.social-icons ul li a.shopify {
+    color: #64943E;
+}
+
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+.main-image {
+  width: 90%;
+  height: 200px;
+}
+
+.box-image {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.vintage-image {
+  width: 300px;
+  height: auto;
+}
+
+.nft-image {
+    width: 25%;
+    height: auto;
+}
+
+p {
+  text-transform: none;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+ol {
+  align-items: center;
+  list-style-position: inside;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  color: #ffff;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+footer p {
+  font-size: 12px;
+}
