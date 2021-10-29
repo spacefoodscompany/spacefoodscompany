@@ -14,7 +14,7 @@ body {
 header {
   display: flex;
   justify-content: space-evenly;
-  gap: 300px;
+  gap: 190px;
   align-items: center;
   background-color: #ffffff;
 }
@@ -47,9 +47,9 @@ h2 {
 
 .nav-links nav {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   text-align: center;
-  margin-right: 120px;
+  margin-right: 175px;
 }
 
 .nav-links nav a {
@@ -69,6 +69,7 @@ nav a:hover {
 .social-links ul {
   display: flex;
   gap: 25px;
+  padding-right:40px;
 }
 
 .social-links ul li a.twitter {
@@ -89,8 +90,9 @@ div.scrollmenu {
 }
 
 .main-image {
-  width: 250px;
+  width: 350px;
   height: auto;
+  padding-left: 30px;
 }
 
 .box-image {
@@ -113,7 +115,12 @@ div.scrollmenu {
 }
 
 section {
-  margin-top: 25px;
+  margin-top: 150px;
+}
+
+.roadmap{
+    margin-top: 230px;
+    margin-bottom: 230px;
 }
 
 .team-section {
