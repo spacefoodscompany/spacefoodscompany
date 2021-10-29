@@ -6,108 +6,131 @@
 
 body {
   background-color: #000;
-  font-family: sans-serif;
-  color: #ffff;
-  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
   text-transform: uppercase;
 }
 
-.container {
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 25px;
+header {
   display: flex;
+  justify-content: space-evenly;
+  gap: 300px;
   align-items: center;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
   justify-content: center;
   gap: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70em;
 }
 
-header {
-  background-color: #ffff;
-  margin-bottom: 30px;
-}
 
 h1 {
+  text-align: center;
   font-size: 26px;
   font-style: italic;
 }
 
 h2 {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-nav {
   text-align: center;
-  padding-top: 15px;
-  background-color: #ffff;
+  background: transparent;
+  filter: drop-shadow(0 0 0.2rem rgb(2 251 2));
+  margin-bottom: 20px;
+  color: #00ccff;
 }
 
-nav a {
+.nav-links nav {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  margin-right: 120px;
+}
+
+.nav-links nav a {
   color: #000;
-  font-family: "Courier New", Courier, monospace;
-  margin: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-transform: none;
 }
 
+.social-links a:hover,
 nav a:hover {
-  color: #1320db;
-  font-weight: bold;
+  background: transparent;
+  filter: drop-shadow(0 0 0.2rem rgb(2 251 2));
+  color: #00ccff;
 }
 
-.social-icons {
-    margin-top: 10px;
+.social-links ul {
+  display: flex;
+  gap: 25px;
 }
 
-.social-icons ul li{
-    display: inline-block;
+.social-links ul li a.twitter {
+  color: #1da1f2;
 }
 
-.social-icons ul li a.twitter {
-    color: #1DA1F2;
+.social-links ul li a.discord {
+  color: #7289d9;
 }
 
-.social-icons ul li a.discord {
-    color: #7289d9;
+.social-links ul li a.shopify {
+  color: #64943e;
 }
-
-.social-icons ul li a.shopify {
-    color: #64943E;
-}
-
 
 div.scrollmenu {
-    overflow: auto;
-    white-space: nowrap;
+  overflow: auto;
+  white-space: nowrap;
 }
 
-
 .main-image {
-  width: 90%;
-  height: 200px;
+  width: 250px;
+  height: auto;
 }
 
 .box-image {
   width: 300px;
   height: auto;
   margin-right: 20px;
+  border-radius: 10%;
 }
 
 .vintage-image {
   width: 300px;
   height: auto;
+  border-radius: 10%;
 }
 
 .nft-image {
-    width: 25%;
-    height: auto;
+  width: 25%;
+  height: auto;
+  border-radius: 10%;
+}
+
+section {
+  margin-top: 25px;
+}
+
+.team-section {
+    justify-content: space-between;
+}
+
+.team-section div {
+    text-transform: none;
+    font-weight: bold;
+    text-align: center;
 }
 
 p {
   text-transform: none;
   font-size: 18px;
   color: #ffffff;
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -117,16 +140,6 @@ ol {
   list-style-position: inside;
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-  color: #ffff;
-}
-
 .profile-image {
   width: 150px;
   height: 150px;
@@ -134,5 +147,8 @@ ol {
 }
 
 footer p {
+  margin-top: 25px;
   font-size: 12px;
+  text-align: center;
 }
+
