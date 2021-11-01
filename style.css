@@ -15,7 +15,7 @@ body {
     justify-content: space-evenly;
     gap: 190px;
     align-items: center;
-    background-color: #ffffff;
+    background-color:#000;
   }
   
   .container {
@@ -31,8 +31,11 @@ body {
 
   h1 {
     text-align: center;
-    font-size: 26px;
+    font-size: 25px;
     font-style: italic;
+    color: #00ccff;
+    background: transparent;
+    filter: drop-shadow(0 0 0.2rem rgb(2 251 2));
   }
   
   h2 {
@@ -50,14 +53,15 @@ body {
     gap: 30px;
     text-align: center;
     align-items: center;
-    margin-right: 175px;
+    margin-right: 125px;
+    text-transform: none !important;
   }
   
   .nav-links nav a {
-    color: #000;
+    color: #fff;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-transform: none;
+    font-size: 18px;
+    text-transform: none !important;
   }
   
   .social-links a:hover,
@@ -122,13 +126,11 @@ div.scrollmenu {
 }
 
 section {
+  background: radial-gradient(60% 40%, #00ccff, black);
   margin-top: 150px;
 }
 
-.roadmap{
-    margin-top: 230px;
-    margin-bottom: 230px;
-}
+
 
 .team-section {
     justify-content: space-between;
