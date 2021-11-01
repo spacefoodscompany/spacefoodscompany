@@ -10,7 +10,6 @@ body {
   text-transform: uppercase;
 }
 
-
 header {
   display: flex;
   align-items: center;
@@ -19,6 +18,11 @@ header {
   padding: 25px;
   width: 100%;
   margin: auto;
+}
+
+.banner {
+    background-image: url("images/bottles_banner.jpeg");
+    height: 250px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -72,6 +76,7 @@ h1 {
   color: #00ccff;
   background: transparent;
   filter: drop-shadow(0 0 0.2rem rgb(2 251 2));
+
 }
 
 h2 {
@@ -166,7 +171,7 @@ div.scrollmenu {
 
 section {
   background: radial-gradient(60% 40%, #00ccff, black);
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .team-section {
@@ -185,7 +190,8 @@ p {
   color: #ffffff;
   font-family: "Courier New", Courier, monospace;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.5; 
+ 
 }
 
 ol {
@@ -204,3 +210,4 @@ footer p {
   font-size: 12px;
   text-align: center;
 }
+
