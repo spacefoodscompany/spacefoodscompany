@@ -84,6 +84,14 @@ a {
   .team-section {
     justify-content: center !important;
   }
+
+  .box-image {
+    float: left;
+    height: 600px;
+    width:auto;
+    margin-right: 0px !important;
+    border-radius: 10%;
+  }
 }
 
 .container {
