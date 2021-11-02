@@ -5,7 +5,7 @@
 }
 body {
   background-color: #000;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   /*font-family: "Source Code Pro", monospace;*/
   color: #fff;
   font-size: 24px;
@@ -18,6 +18,7 @@ header {
   background-color: #000;
   padding: 25px;
   width: 95%;
+  height: auto;
   margin: auto;
 }
 
@@ -113,9 +114,12 @@ h2 {
   text-transform: uppercase;
 }
 
-.nav-links {
-  margin-right: 100px;
+.logo {
+  width: 150px;
+  height: auto;
+  background: radial-gradient(rgb(13, 13, 190), #0000);
 }
+
 
 .nav-links nav {
   display: flex;
@@ -126,8 +130,14 @@ h2 {
 
 .nav-links nav a {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: none !important;
+}
+
+.nav-links nav a:hover {
+  background: transparent;
+  filter: drop-shadow(0 0 0.2rem rgb(2 251 2));
+  color: #00ccff;
 }
 
 .social-links {
@@ -137,6 +147,7 @@ h2 {
 .social-links nav {
   display: flex;
   gap: 20px;
+  font-size: 16px;
   align-content: center;
   justify-content: end;
   margin-top: 15px;
@@ -144,32 +155,27 @@ h2 {
 
 .social-links nav a.twitter {
   color: #1da1f2;
+  transition: transform 0.7s ease-in-out;
 }
 
 .social-links nav a.discord {
   color: #7289d9;
+  transition: transform 0.7s ease-in-out;
 }
 
 .social-links nav a.shopify {
   color: #64943e;
+  transition: transform 0.7s ease-in-out;
 }
 
 .social-links a:hover,
 nav a:hover {
-  background: transparent;
-  filter: drop-shadow(0 0 0.2rem rgb(2 251 2));
-  color: #00ccff;
+  transform: rotate(360deg);
 }
 
 div.scrollmenu {
   overflow: auto;
   white-space: nowrap;
-}
-
-.main-image {
-  width: 350px;
-  height: auto;
-  padding-left: 30px;
 }
 
 .box-image {
