@@ -2,19 +2,27 @@
   .section-hero {
     background-color: #070e16;
     padding: 4.8rem 0 9.6rem 0;
-    height: auto;
+    height: 100vh;
   }
 
   .hero {
     max-width: 130rem;
     margin: 0 auto;
     position: relative;
-    top: 20%;
+    top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5rem;
   }
+
+  .hero-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 30em;
+}
 
   .logo {
     height: 10rem;
@@ -69,6 +77,10 @@
     margin-bottom: 0px;
   }
 
+  .copyright{
+      display: none;
+  }
+
   .row {
     display: flex;
     flex-direction: column;
@@ -77,12 +89,15 @@
     gap: 15px;
   }
 
+  /*MOBILE NAVIGATION*/
+
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
-    background-color: #fff;
+    background-color:rgba(255, 255 ,255 ,0.97);
     position: absolute;
     top: 0;
     left: 0;
@@ -93,7 +108,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s;
+    transition: all 0.5s ease-out;
 
     /*Hide Navigation */
     /* allows no transitions
@@ -112,24 +127,39 @@
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
-    visibility: auto;
+    visibility: visible;
+    transform: translateX(0);
   }
 
-  .nav-open .fa-times[name="close-outline"] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
 
-  .nav-open .fa-bars[name="menu-outline"] {
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
   .main-nav-list {
     flex-direction: column;
+    gap: 4.8rem;
   }
 
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 3rem;
-    color: #070e16;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .episode-image:first-child {
+    display: none;
+  }
+
+  .gap-lg {
+      gap: 5px;
+  }
+
+  .margin-top-lg{
+        margin-top: 1rem;
   }
 }

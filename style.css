@@ -82,6 +82,7 @@ p {
 .main-nav-list {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 3.2rem;
 }
 
@@ -103,14 +104,15 @@ p {
     border: none;
     background: none;
     cursor: pointer;
+
     display: none;
 }
 
-.fas {
-  color: #fff;
+.icon-mobile-nav {
+  color: #7d41eb;
 }
 
-.fa-times[name="close-outline"]{
+.icon-mobile-nav[name="close-outline"]{
     display: none;
 }
 
