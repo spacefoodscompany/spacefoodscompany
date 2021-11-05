@@ -1,4 +1,15 @@
 @media (max-width: 600px) {
+  .header {
+    display: flex;
+    background-color: #000;
+    position: relative;
+    padding: 1.5 rem 1.5 rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+
   .section-hero {
     background-color: #070e16;
     padding: 4.8rem 0 9.6rem 0;
@@ -26,6 +37,11 @@
 
   .logo {
     height: 10rem;
+  }
+
+  .grid {
+    display: grid;
+    justify-content: space-evenly;
   }
 
   .nft-grid {
@@ -97,7 +113,7 @@
   }
 
   .row-gap {
-      row-gap: 5rem;
+    row-gap: 5rem;
   }
 
   /*MOBILE NAVIGATION*/
