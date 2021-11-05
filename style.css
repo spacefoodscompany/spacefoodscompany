@@ -150,6 +150,11 @@ p {
 /*****************************/
 /* ABOUT SECTION */
 /*****************************/
+.about-section{
+  padding: 9.6rem 0;
+  background-color: #070e16;
+}
+
 .section-about {
   padding: 9.6rem 0;
   background-color: #070e16;
@@ -158,6 +163,12 @@ p {
 .nft-image {
   width: 30rem;
   height: auto;
+}
+
+.nft-grid {
+  display:grid;
+  align-items: stretch;
+  gap: 10px;
 }
 
 .img-box {
@@ -229,6 +240,63 @@ p {
   color: #fff;
   font-size: 1.5rem;
 }
+
+/*****************************/
+/* FAQ SECTION */
+/*****************************/
+
+.section-faq {
+  padding: 9.6rem 0;
+  background-color: #070e16;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.faq-item {
+  box-shadow: 0px 0px 25px #fff;
+  padding: 2.4rem;
+  background-color:#070e16;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 2.4rem;
+  row-gap: 3.2rem;
+  align-items: center;
+}
+
+
+.faq-question ,
+.faq-number{
+  font-size: 2rem;
+  color: #7d41eb;
+  font-weight: bolder;
+}
+
+.faq-answer {
+  grid-column: 2;
+  display: none;
+}
+
+.faq-answer p {
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+  color: #fff;
+}
+
+.fa-plus-circle {
+  color:#7d41eb;
+}
+
+
+.open .faq-answer {
+  display: block;
+}
+
+
 
 /*****************************/
 /* FOOTER */

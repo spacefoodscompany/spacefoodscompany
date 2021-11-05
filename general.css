@@ -12,7 +12,6 @@
 
 .heading-secondary {
   font-size: 4rem;
-  margin-bottom: 1.5rem;
   text-transform: uppercase;
   background: transparent;
   filter: drop-shadow(0 0 1rem #3a049e);
@@ -56,7 +55,15 @@
 
 .grid {
   display: grid;
-  gap: 15px;
+  justify-content: space-between;
+}
+
+.row-gap {
+  row-gap: 15rem;
+}
+
+.col-gap {
+  column-gap: 2rem;
 }
 
 .grid--center-v {
@@ -94,6 +101,14 @@
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-lg {
+  margin-bottom: 4.5rem;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 1.6rem;
 }
 
 .gap-sm {
