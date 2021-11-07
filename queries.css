@@ -35,6 +35,14 @@
     width: 30em;
   }
 
+  .bottles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+  }
+
   .logo {
     height: 10rem;
   }
