@@ -87,6 +87,15 @@
     letter-spacing: -0.5px;
   }
 
+  .heading-secondary {
+    font-size: 5rem;
+    text-transform: uppercase;
+  
+    background: -webkit-linear-gradient(#eee, #6D1BEB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .grid--2-cols {
     grid-template-columns: repeat(1, 1fr);
   }

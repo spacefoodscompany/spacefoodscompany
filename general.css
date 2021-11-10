@@ -6,25 +6,30 @@
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.05;
-  color: #fff;
   letter-spacing: -0.5px;
+
+  background: -webkit-linear-gradient(#eee, #6D1BEB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .heading-secondary {
-  font-size: 4rem;
+  font-size: 6.5rem;
   text-transform: uppercase;
-  background: transparent;
-  filter: drop-shadow(0 0 1rem #3a049e);
-  color: #7d41eb;
+
+  background: -webkit-linear-gradient(#eee, #6D1BEB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .heading-tertiary {
   display: inline;
   font-size: 2.4rem;
   border: 2rem #fff;
-  filter: drop-shadow(0 0 1rem #3a049e);
-  background: transparent;
-  color: #7d41eb;
+
+  background: -webkit-linear-gradient(#eee, #6D1BEB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .container {

@@ -27,7 +27,7 @@ body {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -62,7 +62,7 @@ p {
 .btn:visited {
   font-size: 1.6rem;
   font-weight: 600;
-  background-color: #7d41eb;
+  background-color: #6D1BEB;
   color: #fff;
   text-decoration: none;
   padding: 1rem 2rem;
@@ -96,7 +96,7 @@ p {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #7d41eb;
+  color: #6D1BEB;
   border-color: #000;
 }
 
@@ -109,7 +109,7 @@ p {
 }
 
 .icon-mobile-nav {
-  color: #7d41eb;
+  color: #6D1BEB;
 }
 
 .icon-mobile-nav[name="close-outline"] {
@@ -150,7 +150,7 @@ p {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #7d41eb;}
+.dropdown-content a:hover {background-color: #6D1BEB;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
@@ -368,10 +368,13 @@ p {
 }
 
 .roadmap-step h4 {
-  color: #cbb3f7;
   text-decoration: underline;
   font-size: 2.8rem;
   font-weight: bolder;
+
+  background: -webkit-linear-gradient(#eee, #6d1beb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*****************************/
@@ -383,13 +386,13 @@ p {
   background-color: #070e16;
 }
 .episode-number {
-  color: #cbb3f7;
+  color: #6D1BEB;
   font-size: 8rem;
   font-weight: 600;
 }
 
 .episode-title {
-  color: #7d41eb;
+  color: #6D1BEB;
   font-size: 2.4rem;
 }
 
@@ -419,6 +422,7 @@ p {
   justify-content: space-between;
   align-items: center;
   gap: 15px;
+  margin-top:
 }
 
 .headshot {
@@ -470,8 +474,11 @@ p {
 .faq-question,
 .faq-number {
   font-size: 2rem;
-  color: #7d41eb;
   font-weight: bolder;
+
+  background: -webkit-linear-gradient(#eee, #6d1beb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .faq-answer {
@@ -486,7 +493,7 @@ p {
 }
 
 .fa-plus-circle {
-  color: #7d41eb;
+  color: #6D1BEB;
 }
 
 .open .faq-answer {
@@ -516,7 +523,7 @@ p {
 
 .footer-link:hover,
 .footer-link:active {
-  color: #7d41eb;
+  color: #6D1BEB;
 }
 
 .social-links {
@@ -532,7 +539,7 @@ p {
 }
 
 .fab:hover {
-  color: #7d41eb;
+  color: #6D1BEB;
 }
 
 /*****************************/
