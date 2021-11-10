@@ -27,7 +27,15 @@
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#about">About</a></li>
           <li><a class="main-nav-link" href="#roadmap">Roadmap</a></li>
-          <li><a class="main-nav-link" href="#">Store</a></li>
+          <!--li><a class="main-nav-link" href="#">Store</a></li-->
+          <li><div class="dropdown">
+            <button class="dropbtn main-nav-link">Partnerships</button>
+            <div class="dropdown-content">
+              <a href="https://www.joretro.com/product/spacemen-bottle-bank/1193?cs=true">JoRetro</a>
+              <a href="#">TBD</a>
+              <a href="#">TBD</a>
+            </div>
+          </div></li>
           <li><a class="btn" href="https://discord.gg/RqkzTm9JBr">Join Our Discord</a></li>
         </ul>
       </nav>
@@ -61,12 +69,11 @@
         
       </section>
       <section id="about" class="about-section stars">
-          <div class="container grid grid--2-cols col-gap row-gap">
-            <div class="nft-grid">
-              <img src="images/sketch_4.png" class="nft-image" />
-                <img src="images/sketch_1.png" class="nft-image" />
-                <img src="images/sketch_2.png" class="nft-image" />
-                <img src="images/sketch_3.jpg" class="nft-image" />
+          <div class="container flex-col gap-lg">
+            <div class="nft-images">
+              <img class="nft-image" src="images/nft_sketch_2.jpg" />
+              <img class="nft-image" src="images/nft_sketch_1.jpg" />
+                <img  class="nft-image" src="images/nft_sketch_3.jpg" />
             </div>
             <div>
                 <h2 class="heading-secondary margin-bottom-sm">1,953 Crew Members</h2>
@@ -96,34 +103,7 @@
                 physical bottles themselves!
                 </p>
             </div>
-            <div>
-                <h2 class="heading-secondary margin-bottom-sm">Prelude</h2>
-                <p>
-                    Not long after the end of WWII, The Space Race kicked off between 
-                    the U.S. and Soviet Russia - a competition between two powerful 
-                    nations to build a superior technology strong enough for space travel 
-                    capabilities. Many great achievements emerged from this race starting with 
-                    the launch of Sputnik in ’57, to Apollo 11 landing on the moon in ’69. 
-                    As momentous as these achievements were at the time, there was something 
-                    far more intriguing conspiring several years before…
-                    <br />
-                    <br />
-                    Our story begins in 1947, the year a UFO crash landed in Roswell, New Mexico. 
-                    For the last 69 years, the events that transpired the day of the crash have been 
-                    strongly kept secret. Until now…
-                    <br />
-                    <br />
-                    Now we will finish our story starting in 1953 when Space Foods Company mysteriously
-                    halted it’s operation. As a community we will complete this untold story through a 
-                    series of writing and art competitions. The winner for each chapter will win a variety 
-                    of prizes from physical bottles, unique merch and even 1 of 1 NFTs. We will start the 
-                    competition once we have grown our community to 1,953 prospective crew members so please 
-                    help us recruit those you would like to travel the cosmos with.
-                </p>
-            </div>
-            <div>
-                <img class="vintage-bottles" src="images/vintage_bottles.jpeg" />
-            </div>
+            
         </div>
 
       </section>
@@ -193,40 +173,70 @@
 
 
       <section class="section-mission stars">
-        <div class="container">
-          <h2 class="heading-secondary center-text margin-bottom-lg">Missions</h2>
-        </div>
-
-        <div class="container grid grid--2-cols grid--center-v gap-lg margin-top-lg">
+          <h2 class="heading-secondary center-text margin-bottom-lg">Prelude</h2>
+        <div class="container row gap-md">
+        <div>
+          <p>
+              Not long after the end of WWII, The Space Race kicked off between 
+              the U.S. and Soviet Russia - a competition between two powerful 
+              nations to build a superior technology strong enough for space travel 
+              capabilities. Many great achievements emerged from this race starting with 
+              the launch of Sputnik in ’57, to Apollo 11 landing on the moon in ’69. 
+              As momentous as these achievements were at the time, there was something 
+              far more intriguing conspiring several years before…
+              <br />
+              <br />
+              Our story begins in 1947, the year a UFO crash landed in Roswell, New Mexico. 
+              For the last 69 years, the events that transpired the day of the crash have been 
+              strongly kept secret. Until now…
+              <br />
+              <br />
+              Now we will finish our story starting in 1953 when Space Foods Company mysteriously
+              halted it’s operation. As a community we will complete this untold story through a 
+              series of writing and art competitions. The winner for each chapter will win a variety 
+              of prizes from physical bottles, unique merch and even 1 of 1 NFTs. We will start the 
+              competition once we have grown our community to 1,953 prospective crew members so please 
+              help us recruit those you would like to travel the cosmos with.
+          </p>
+      </div>
+      <div>
+          <img class="vintage-bottles" src="images/vintage_bottles.jpeg" />
+      </div>
+    </div>
+        <div class="container margin-top-lg">
+          
           <!-- EPISODE 1-->
           <div class="episode-text-box">
             <p class="episode-number">Episode I</p>
             <h3 class="episode-title">WAGMI-1, Ready for launch</h3>
             <p class="episode-description">
-              Winner of this challenge will receive our digital comic cover as a 1 of 1 NFT.
-              Challenges will be announced via twitter and our discord channel.
+              What happened the day of that UFO crash? Why was Space Foods Company created and
+              why were operations mysteriously halted in 1953? In this challenge, we want you to
+              help us kick off the first episode of our story. Use your imagination and be as 
+              creative as possible. At the end, we will hold a vote to determine the winner who will
+              be airdropped a 1 of 1 NFT of the first comic book cover.
             </p>
           </div>
-          <div class="episode-image-box">
+          <!--div class="episode-image-box">
             <img src="images/original_box.png" class="episode-image border-radius-lg" />
           </div>
 
-          <!-- EPISODE 2-->
-          <div class="episode-image-box">
+         
+          <!--div class="episode-image-box">
             <img src="images/purple_planet.png" class="episode-image" />
           </div>
           <div class="episode-text-box">
             <p class="episode-number">Episode II</p>
-            <!--h3 class="episode-title">This could get bumpy...</h3-->
+            <h3 class="episode-title">This could get bumpy...</h3>
             <p class="episode-description">
               TBD
             </p>
             </div>
 
-            <!-- EPISODE 3-->
+           
           <div class="episode-text-box">
             <p class="episode-number">Episode III</p>
-            <!--h3 class="episode-title">We're Not Alone!</h3-->
+            <!--h3 class="episode-title">We're Not Alone!</h3>
             <p class="episode-description">
               TBD
             </p>
@@ -234,7 +244,7 @@
           <div class="episode-image-box">
             <img src="images/ufo.png" class="episode-image" />
           </div>
-          </div>
+          </div-->
         <h1 class="center-text episode-number margin-top-xlg">To be continued...</h1>
         
       </section>

@@ -23,6 +23,7 @@
   font-size: 2.4rem;
   border: 2rem #fff;
   filter: drop-shadow(0 0 1rem #3a049e);
+  background: transparent;
   color: #7d41eb;
 }
 
