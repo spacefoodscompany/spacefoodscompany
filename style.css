@@ -292,31 +292,31 @@ p {
   transform: rotateY(0deg) translateZ(300px);
 }
 .content-carrousel figure:nth-child(2) {
-  transform: rotateY(20deg) translateZ(300px);
+  transform: rotateY(35deg) translateZ(300px);
 }
 .content-carrousel figure:nth-child(3) {
-  transform: rotateY(40deg) translateZ(300px);
+  transform: rotateY(70deg) translateZ(300px);
 }
 .content-carrousel figure:nth-child(4) {
-  transform: rotateY(60deg) translateZ(300px);
+  transform: rotateY(105deg) translateZ(300px);
 }
 .content-carrousel figure:nth-child(5) {
-  transform: rotateY(80deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(6) {
-  transform: rotateY(100deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(7) {
-  transform: rotateY(120deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(8) {
   transform: rotateY(140deg) translateZ(300px);
 }
+.content-carrousel figure:nth-child(6) {
+  transform: rotateY(175deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(7) {
+  transform: rotateY(210deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(8) {
+  transform: rotateY(245deg) translateZ(300px);
+}
 .content-carrousel figure:nth-child(9) {
-  transform: rotateY(160deg) translateZ(300px);
+  transform: rotateY(280deg) translateZ(300px);
 }
 .content-carrousel figure:nth-child(10) {
-  transform: rotateY(180deg) translateZ(300px);
+  transform: rotateY(315deg) translateZ(300px);
 }
 
 .shadow {
