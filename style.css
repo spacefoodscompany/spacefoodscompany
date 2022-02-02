@@ -221,6 +221,10 @@ p {
   height: 50rem;
 }
 
+.nft-coll-image {
+  height: 30rem;
+}
+
 .nft-grid {
   display: grid;
   gap: 10px;
@@ -234,7 +238,7 @@ p {
 }
 
 /*****************************/
-/*CAROUSEL*/
+/*COLLECTION*/
 /****************************/
 .section-bottles {
   padding: 9.6rem 0;
@@ -253,7 +257,6 @@ p {
 
 #slideshow {
   margin: 0 auto;
-  padding-top: 5rem;
   height: 60rem;
   width: 100%;
   box-sizing: border-box;
@@ -343,6 +346,26 @@ p {
   }
 }
 
+.nft-collection {
+  display:flex;
+  gap: 15px;
+  padding-top: 50;
+}
+
+.nft-title {
+  display: inline;
+  font-size: 2rem;
+  border: 2rem #fff;
+
+  background: -webkit-linear-gradient(#eee, #6D1BEB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nft-rank{
+  font-size: 1.8rem;
+}
+
 /*****************************/
 /* ROADMAP SECTION */
 /*****************************/
@@ -423,7 +446,6 @@ p {
   justify-content: space-between;
   align-items: center;
   gap: 15px;
-  margin-top:
 }
 
 .headshot {
@@ -432,11 +454,10 @@ p {
   box-shadow: 0px 0px 25px #fff;
 }
 
-.rank-title {
-  text-transform: uppercase;
+.job-title {
   font-weight: 700;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .handle {

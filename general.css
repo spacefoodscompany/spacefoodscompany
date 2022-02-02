@@ -72,6 +72,18 @@
   column-gap: 4rem;
 }
 
+.gap-sm {
+  gap: 1.5rem;
+}
+
+.gap-md {
+  gap: 2.5rem;
+}
+
+.gap-lg {
+  gap: 4rem;
+}
+
 .grid--center-v {
   align-items: center;
   justify-items: center;
@@ -117,17 +129,18 @@
   margin-bottom: 1.6rem;
 }
 
-.gap-sm {
-  gap: 1.5rem;
+.padding-top-sm {
+  padding-top: 2.5rem;
 }
 
-.gap-md {
-  gap: 2.5rem;
+.padding-top-med {
+  padding-top: 5rem;
 }
 
-.gap-lg {
-  gap: 4rem;
+.padding-top-lg {
+  padding-top: 10rem;
 }
+
 
 .row {
   display: flex;
@@ -138,3 +151,4 @@
 .border-radius-lg {
   border-radius: 90rem;
 }
+
