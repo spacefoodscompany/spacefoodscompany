@@ -215,6 +215,7 @@ p {
 .nft-images {
   display:flex;
   gap: 15px;
+  padding-top: 5rem;
 }
 
 .nft-image {
@@ -257,7 +258,7 @@ p {
 
 #slideshow {
   margin: 0 auto;
-  height: 60rem;
+  height: 80rem;
   width: 100%;
   box-sizing: border-box;
 }
