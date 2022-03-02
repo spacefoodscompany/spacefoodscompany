@@ -281,8 +281,7 @@ p {
 }
 
 .content-carrousel:hover {
-  animation-play-state: paused;
-  cursor: pointer;
+  animation-play-state:running;
 }
 
 .content-carrousel figure {
@@ -333,10 +332,10 @@ p {
   width: 25rem;
 }
 
-.content-carrousel img:hover {
+/*.content-carrousel img:hover {
   transform: scale(1.2);
   transition: all 300ms;
-}
+}*/
 
 @keyframes rotar {
   from {
@@ -465,6 +464,63 @@ p {
   font-weight: 700;
   color: #fff;
   font-size: 1.5rem;
+}
+
+/*****************************/
+/* STORE */
+/*****************************/
+.product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-name{
+  display: inline;
+  font-size: 2.4rem;
+  border: 2rem #fff;
+  margin-top:2rem;
+
+  background: -webkit-linear-gradient(#eee, #6D1BEB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.product-description{
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem;
+  width:75%;
+}
+
+.product-button{ 
+  font-size: 1.6rem;
+    font-weight: 600;
+    background-color: #6D1BEB;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    border: 2px solid #fff;
+}
+
+.product-button:link,
+.product-button:visited {
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #6D1BEB;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  border: 2px solid #fff;
+}
+
+.product-button:hover,
+.product-button:active {
+  color: #000;
+  border-color: #000;
 }
 
 /*****************************/
