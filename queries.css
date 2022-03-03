@@ -73,6 +73,8 @@
     height: auto;
   }
 
+  
+
   .vintage-bottles {
     width: 100%;
     height: auto;
@@ -241,4 +243,28 @@
   .margin-top-lg {
     margin-top: 1rem;
   }
+
+  /* store */
+  .product {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    border: solid #fff;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+    background: #000;
+  }
+
+  .product-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+    padding-bottom: 1rem;
+  }
+
 }
+

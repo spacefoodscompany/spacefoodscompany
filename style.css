@@ -474,10 +474,15 @@ p {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+
   border: solid #fff;
   border-radius: 2rem;
+
   padding: 1.5rem;
+  background: #000;
 }
+
+
 
 .product-name{
   display: inline;
