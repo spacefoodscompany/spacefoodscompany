@@ -141,7 +141,7 @@
   }
 
   .row-gap-md {
-    row-gap: 1rem;
+    row-gap: 5rem;
   }
 
   .row-gap {
@@ -249,6 +249,10 @@
   }
 
   /* store */
+.section-products{
+  padding: 3rem 0;
+}
+
   .product {
     box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
     max-width: 30rem;
