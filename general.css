@@ -67,9 +67,19 @@
   align-items: center;
 }
 
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
 .grid {
   display: grid;
   justify-content: space-between;
+}
+
+.row-gap-md {
+  row-gap: 2.5rem;
 }
 
 .row-gap {
@@ -149,12 +159,13 @@
   padding-top: 10rem;
 }
 
-
 .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+
 
 
 

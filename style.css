@@ -79,6 +79,10 @@ p {
 /*****************************/
 /* NAVIGATION */
 /*****************************/
+.home-link {
+  text-decoration: none;
+}
+
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -161,7 +165,7 @@ p {
 /*****************************/
 
 .section-hero {
-  background-color: #070e16;
+  /* background-color: #070e16;*/
   height: 100vh;
   padding: 4.8rem 0 9.6rem 0;
 }
@@ -204,12 +208,12 @@ p {
 /*****************************/
 .about-section {
   padding: 9.6rem 0;
-  background-color: #070e16;
+  /* background-color: #070e16;*/
 }
 
 .section-about {
   padding: 9.6rem 0;
-  background-color: #070e16;
+ /* background-color: #070e16;*/
 }
 
 .nft-images {
@@ -242,8 +246,8 @@ p {
 /*COLLECTION*/
 /****************************/
 .section-bottles {
-  padding: 9.6rem 0;
-  background-color: #070e16;
+  /*padding: 9.6rem 0;
+  background-color: #070e16;*/
 }
 
 .bottles {
@@ -371,7 +375,7 @@ p {
 /*****************************/
 .section-roadmap {
   padding: 9.6rem 0;
-  background-color: #070e16;
+  /* background-color: #070e16;*/
 }
 
 .roadmap {
@@ -407,7 +411,7 @@ p {
 
 .section-mission {
   padding: 9.6rem 0;
-  background-color: #070e16;
+  /* background-color: #070e16;*/
 }
 .episode-number {
   color: #6D1BEB;
@@ -438,7 +442,7 @@ p {
 /*****************************/
 .section-team {
   padding: 9.6rem 0;
-  background-color: #070e16;
+  /* background-color: #070e16;*/
 }
 
 .members {
@@ -469,64 +473,59 @@ p {
 /*****************************/
 /* STORE */
 /*****************************/
-.product {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
 
-  border: solid #fff;
-  border-radius: 2rem;
+.section-products {
+  padding: 9.6rem 0;
 
-  padding: 1.5rem;
-  background: #000;
 }
 
-
+.product {
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  max-width: 30rem;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
 
 .product-name{
-  display: inline;
-  font-size: 2.4rem;
-
-  background: -webkit-linear-gradient(#eee, #6D1BEB);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:#000;
+  background-color: #eee;
+  font-size: 2.4rem ;
+  padding:.5rem;
 }
 
 .product-description{
-  font-size: 2rem;
+  color:#000;
+  background-color: #eee;
+  font-size: 1.6rem;
+  padding:.5rem;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.price {
+  color: grey;
+  background-color: #eee;
+  font-size: 2.2rem;
+}
+
+.product-button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
   text-align: center;
-  margin: 1rem;
-  width:75%;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 
-.product-button{ 
-  font-size: 1.6rem;
-    font-weight: 600;
-    background-color: #6D1BEB;
-    color: #fff;
-    text-decoration: none;
-    padding: 1rem 2rem;
-    border-radius: 15px;
-    border: 2px solid #fff;
-}
-
-.product-button:link,
-.product-button:visited {
-  font-size: 1.6rem;
-  font-weight: 600;
-  background-color: #6D1BEB;
-  color: #fff;
-  text-decoration: none;
-  padding: 1rem 2rem;
-  border-radius: 15px;
-  border: 2px solid #fff;
-}
-
-.product-button:hover,
-.product-button:active {
-  color: #000;
-  border-color: #000;
+.product-button:hover {
+  opacity: 0.7;
+  color:#6d1beb;
 }
 
 /*****************************/
@@ -535,7 +534,7 @@ p {
 
 .section-faq {
   padding: 9.6rem 0;
-  background-color: #070e16;
+  /* background-color: #070e16;*/
 }
 
 .accordion {
