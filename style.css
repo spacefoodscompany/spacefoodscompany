@@ -446,10 +446,40 @@ p {
 }
 
 .members {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  grid-auto-rows: minmax(100px, auto);
+}
+  
+.slot-one {
+  grid-column: 1 ;
+  grid-row: 1;
+}
+.slot-two {
+  grid-column: 2;
+  grid-row: 1;
+}
+.slot-three {
+  grid-column: 3;
+  grid-row: 1;
+}
+.slot-four {
+  grid-column: 1;
+  grid-row: 2;
+}
+.slot-five {
+  grid-column: 2;
+  grid-row: 2;
+}
+.slot-six {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.slot-seven {
+  grid-column: 2;
+  grid-row: 3;
 }
 
 .headshot {
