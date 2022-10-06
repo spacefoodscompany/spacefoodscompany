@@ -1,0 +1,60 @@
+@import url('./About.css');
+
+
+.team h2 {
+    font-size: 1.6rem;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+    margin: 2rem;
+}
+
+.members {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    padding: 3rem;
+}
+
+.member {
+    width: 25%;
+}
+
+.member img {
+    width: 75%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px  #fff;
+    padding: .2rem;
+}
+
+.member h3 {
+    font-size: 1.2rem;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+}
+
+.member h4 {
+    font-size: 1rem;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+}
+
+
+@media (max-width: 600px) {
+
+.members {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    padding: 3rem;
+    align-items: center;
+}
+
+
+.member {
+    width: 90%;
+}
+}

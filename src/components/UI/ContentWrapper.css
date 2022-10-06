@@ -1,0 +1,21 @@
+.content-wrapper {
+    background: #384246;
+    /*black
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;*/
+    border-radius: 1.5rem;
+    max-width: 120rem; /*stndard used*/
+  padding: 0 3.2rem;
+  margin: 0 auto; /*center it*/
+  padding: 1.5rem;
+}
+
+@media (max-width: 600px) {
+
+    .content-wrapper {
+        margin: auto;
+        width: 50%;
+    background: #384246;
+    border-radius: 1.5rem;
+    text-align: center;
+    }
+}
