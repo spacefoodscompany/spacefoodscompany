@@ -509,6 +509,22 @@ p {
 
 }
 
+.cart {
+  font-size: 5rem;
+  color:white;
+}
+
+.cart:hover {
+  font-size: 5rem;
+  color:#6d1beb;
+}
+
+.cart-icon {
+  display: flex;
+  justify-content: center;
+  padding-bottom:10rem;
+}
+
 .products {
   display:flex;
   flex-direction: row;
@@ -675,9 +691,11 @@ p {
 }
 
 .fab {
-  height: 3rem;
-  width: 3rem;
   color: #fff;
+}
+
+.fa-lg {
+  font-size: 6.5rem;
 }
 
 .fab:hover {
